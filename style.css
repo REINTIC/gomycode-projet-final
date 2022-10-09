@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2? family= Source+Sans+Pro & display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+
+body{
+    /* padding: 0 150px; */
+    font-family: 'Source Sans Pro', sans empattement ;
+}
+
+/*++++++++++CSS HEADER +++++++++++*/
+
+header{
+    background-image: url(./image/pageheader-banner.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%, cover;
+    padding-bottom: 100px;
+    color: #fff;
+}
+nav {
+    display:flex;
+    /* padding: 15px; */
+align-items: center;
+padding: 15px 150px;
+justify-content: space-between;
+color: #fff;   
+}
+
+.navbar_left h1 span {
+    color: #f38708;
+}
+.navbar_right ul a {
+    text-decoration: none;
+    margin-right: 15px;
+    color: #fff;
+}
+.navbar_right ul a button{
+    border: none;
+    outline: none;
+    padding: 5px 15px;
+    color: #fff;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    font-weight: 600;
+    background-color: #f38708;
+    font-family:'Source Sans Pro', sans empattement ;
+}
+header .container {
+    margin-top: 150px;
+    padding: 0 150px;
+    text-align: center;
+}
+ 
+header .container p {
+    margin: 20px 0px;
+}
+.container .btn_box .btn_left {
+    border: none;
+    outline: none;
+    padding: 5px 15px;
+    font-weight: 600;
+    color: #fff;
+    text-transform: uppercase;
+    background-color: #f38708;
+    font-family:'Source Sans Pro', sans empattement ;
+
+}
+
+.container .btn_box .btn_right {
+    border: none;
+    outline: none;
+    color: #fff;
+    padding: 5px 15px;
+    font-weight: 600;
+    text-transform: uppercase;
+    background-color: #0862f3;
+    font-family:'Source Sans Pro', sans empattement ;
+
+}
